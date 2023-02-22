@@ -45,6 +45,14 @@ a:hover {
     font-weight: lighter;
     font-style: normal;
 }
+.black {
+    color: black !important;
+}
+.heading-text-contact {
+    font-size: 20px;
+    font-weight: bold;
+    color: black !important;
+}
 
 
 #page-loading-blocs-notifaction {
@@ -778,7 +786,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(165, 147, 99, 0.909);
     padding: 40px 40px 40px 40px;
 }
 
