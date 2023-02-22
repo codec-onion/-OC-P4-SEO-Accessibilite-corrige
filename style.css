@@ -1,3 +1,5 @@
+                                        /* ELEMENTS GENERAUX */
+
 body {
     margin: 0;
     padding: 0;
@@ -21,6 +23,29 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+
+
+                                    /* MODIFICATIONS EFFECTUEES */
+
+.description, .quote {
+    color: #777777 !important;
+    text-shadow: 0 0 1px #777777;
+}
+.description {
+    font-size: 22px;
+    line-height: 24px;
+    padding: 0 150px;
+}
+.quote {
+    font-size: 19px;
+    font-style: oblique;
+    line-height: 20px;
+}
+.quote .light-text {
+    font-weight: lighter;
+    font-style: normal;
+}
+
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -888,6 +913,7 @@ h4 {
         padding-right: constant(safe-area-inset-right);
     }
 }
+                                    
 
 @media (max-width: 767px) {
     .page-container {
