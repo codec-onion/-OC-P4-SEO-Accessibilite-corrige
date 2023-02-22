@@ -28,8 +28,8 @@ a:hover {
                                     /* MODIFICATIONS EFFECTUEES */
 
 .description, .quote {
-    color: #777777 !important;
-    text-shadow: 0 0 1px #777777;
+    color: black !important;
+    text-shadow: 0 0 1px black;
 }
 .description {
     font-size: 22px;
