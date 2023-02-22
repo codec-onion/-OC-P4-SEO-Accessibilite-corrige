@@ -53,8 +53,13 @@ a:hover {
     font-weight: bold;
     color: black !important;
 }
+.heading {
+    font-weight: bolder;
+    font-size: 25px;
+    position: relative;
+}
 
-
+                                    /* ELEMENTS DE BASE */
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
